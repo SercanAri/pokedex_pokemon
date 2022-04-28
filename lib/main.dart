@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       designSize: const Size(412, 732),
       builder: () => MaterialApp(
           debugShowCheckedModeBanner: false,
-          title: 'Pokedex',
+          title: 'POKEDEX',
           theme:
               ThemeData.dark().copyWith(textTheme: GoogleFonts.latoTextTheme()),
           home: const HomePage()),

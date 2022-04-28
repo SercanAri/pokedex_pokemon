@@ -4,20 +4,20 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 class Constants {
   Constants._();
 
-  static const String title = 'Pokedex';
+  static const String title = 'POKEDEX';
 
   static TextStyle getTitleTextStyle() {
     return TextStyle(
-        color: Colors.white,
-        fontWeight: FontWeight.bold,
-        fontSize: _calculateFontSize(48));
+        color: Colors.orangeAccent,
+        fontWeight: FontWeight.normal,
+        fontSize: _calculateFontSize(44));
   }
 
   static TextStyle getPokemonNameTextStyle() {
     return TextStyle(
         color: Colors.white,
         fontWeight: FontWeight.bold,
-        fontSize: _calculateFontSize(24));
+        fontSize: _calculateFontSize(26));
   }
 
   static TextStyle getTypeChipTextStyle() {
@@ -32,9 +32,13 @@ class Constants {
     }
   }
 
-static getPokeInfoLabelTextStyle() {
-    return TextStyle(fontSize: _calculateFontSize(20), fontWeight: FontWeight.bold, color: Colors.black);
+  static getPokeInfoLabelTextStyle() {
+    return TextStyle(
+        fontSize: _calculateFontSize(20),
+        fontWeight: FontWeight.bold,
+        color: Colors.black);
   }
+
   static getPokeInfoTextStyle() {
     return TextStyle(fontSize: _calculateFontSize(16), color: Colors.black);
   }
